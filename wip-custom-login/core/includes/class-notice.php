@@ -14,7 +14,7 @@ if( !class_exists( 'wip_custom_login_admin_notice' ) ) {
 		 
 		public function __construct( $fields = array() ) {
 
-			if ( !get_user_meta( get_current_user_id(), 'wip_custom_login_notice_userid_' . get_current_user_id() , TRUE ) ) {
+			if ( !get_user_meta( get_current_user_id(), 'wip_custom_login_dismissed_notice_' . get_current_user_id() , TRUE ) ) {
 
 				add_action( 'admin_notices', array(&$this, 'admin_notice') );
 				add_action( 'admin_head', array( $this, 'dismiss' ) );
@@ -33,7 +33,7 @@ if( !class_exists( 'wip_custom_login_admin_notice' ) ) {
 		
 				update_user_meta(
 					get_current_user_id(),
-					sanitize_text_field('wip_custom_login_notice_userid_' . get_current_user_id()),
+					sanitize_text_field('wip_custom_login_dismissed_notice_' . get_current_user_id()),
 					absint($_GET['wip_customlogin-dismiss']) 
 				);
 				
@@ -62,7 +62,7 @@ if( !class_exists( 'wip_custom_login_admin_notice' ) ) {
 					
 					<p class="notice-coupon-message">
 
-						<span class="dashicon dashicons dashicons-yes-alt" size="10"></span> <?php esc_html_e( 'Starting at €1', 'wip-custom-login' ); ?><br/>
+						<span class="dashicon dashicons dashicons-yes-alt" size="10"></span> <?php esc_html_e( 'Starting at €5', 'wip-custom-login' ); ?><br/>
 						<span class="dashicon dashicons dashicons-yes-alt" size="10"></span> <?php esc_html_e( 'Lifetime updates', 'wip-custom-login' ); ?><br/>
 						<span class="dashicon dashicons dashicons-yes-alt" size="10"></span> <?php esc_html_e( 'Lifetime support', 'wip-custom-login' ); ?>
 
