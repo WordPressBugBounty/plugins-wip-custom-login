@@ -58,13 +58,13 @@ if( !class_exists( 'wip_custom_login_admin_notice' ) ) {
             
             	<div class="wip-custom-login-noticedescription">
 
-					<strong><?php _e( 'Pay what you want to enable all pro features of Custom Login plugin, like unlimited colors, background slideshow and much more.', 'wip-custom-login' ); ?></strong><br/>
+					<strong><?php _e( 'Unlock all premium features of Custom Login, like...', 'wip-custom-login' ); ?></strong><br/>
 					
 					<p class="notice-coupon-message">
 
-						<span class="dashicon dashicons dashicons-yes-alt" size="10"></span> <?php esc_html_e( 'Starting at €5', 'wip-custom-login' ); ?><br/>
-						<span class="dashicon dashicons dashicons-yes-alt" size="10"></span> <?php esc_html_e( 'Lifetime updates', 'wip-custom-login' ); ?><br/>
-						<span class="dashicon dashicons dashicons-yes-alt" size="10"></span> <?php esc_html_e( 'Lifetime support', 'wip-custom-login' ); ?>
+						<span class="dashicon dashicons dashicons-yes-alt" size="10"></span> <?php esc_html_e( 'Unlimited colors', 'wip-custom-login' ); ?><br/>
+						<span class="dashicon dashicons dashicons-yes-alt" size="10"></span> <?php esc_html_e( 'Background slideshow', 'wip-custom-login' ); ?><br/>
+						<span class="dashicon dashicons dashicons-yes-alt" size="10"></span> <?php esc_html_e( 'Custom css', 'wip-custom-login' ); ?><br/>
 
 					</p>
 					
@@ -72,7 +72,7 @@ if( !class_exists( 'wip_custom_login_admin_notice' ) ) {
 				
 				</div>
                 
-                <a target="_blank" href="<?php echo esc_url( 'https://www.themeinprogress.com/c-login-free-custom-login-wordpress-plugin/?ref=2&campaign=wip-custom-login-notice' ); ?>" class="button"><?php _e( 'Name your price', 'wip-custom-login' ); ?></a>
+                <a target="_blank" href="<?php echo esc_url( 'https://www.themeinprogress.com/c-login-free-custom-login-wordpress-plugin/?ref=2&campaign=wip-custom-login-notice' ); ?>" class="button"><?php _e( 'Upgrade now', 'wip-custom-login' ); ?></a>
                 <div class="clear"></div>
 
             </div>
