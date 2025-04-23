@@ -64,15 +64,20 @@ if( !class_exists( 'wip_custom_login_admin_notice' ) ) {
 
 						<span class="dashicon dashicons dashicons-yes-alt" size="10"></span> <?php esc_html_e( 'Unlimited colors', 'wip-custom-login' ); ?><br/>
 						<span class="dashicon dashicons dashicons-yes-alt" size="10"></span> <?php esc_html_e( 'Background slideshow', 'wip-custom-login' ); ?><br/>
+						<span class="dashicon dashicons dashicons-yes-alt" size="10"></span> <?php esc_html_e( 'Transparent login box', 'wip-custom-login' ); ?><br/>
+						<span class="dashicon dashicons dashicons-yes-alt" size="10"></span> <?php esc_html_e( 'Borders radius', 'wip-custom-login' ); ?><br/>
 						<span class="dashicon dashicons dashicons-yes-alt" size="10"></span> <?php esc_html_e( 'Custom css', 'wip-custom-login' ); ?><br/>
 
 					</p>
 					
+					<a target="_blank" href="<?php echo esc_url( 'https://www.themeinprogress.com/c-login-free-custom-login-wordpress-plugin/?ref=2&campaign=wip-custom-login-notice' ); ?>" class="button"><?php _e( 'Upgrade to Custom Login Pro', 'wip-custom-login' ); ?></a>
+
+					<div class="clear"></div>
+
 					<?php printf( '<a href="%1$s" class="dismiss-notice">'. __( 'Dismiss this notice', 'wip-custom-login' ) .'</a>', esc_url($redirect)); ?>
 				
 				</div>
-                
-                <a target="_blank" href="<?php echo esc_url( 'https://www.themeinprogress.com/c-login-free-custom-login-wordpress-plugin/?ref=2&campaign=wip-custom-login-notice' ); ?>" class="button"><?php _e( 'Upgrade now', 'wip-custom-login' ); ?></a>
+
                 <div class="clear"></div>
 
             </div>

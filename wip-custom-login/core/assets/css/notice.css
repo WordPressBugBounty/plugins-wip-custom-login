@@ -23,14 +23,13 @@
 	background: #ec7063;
 	border:solid 2px #ec7063;
 	color:#fff !important;
+	margin: 8px 0;
 	padding: 8px 16px;
 	height:auto;
 	line-height:normal;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	-o-transition: all .3s ease;
-	float:right;
-	text-transform:uppercase;
 	font-weight:bold
 }
 
